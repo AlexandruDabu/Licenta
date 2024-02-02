@@ -15,3 +15,4 @@ C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotn
 C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Application\obj\Debug\net8.0\Application.sourcelink.json

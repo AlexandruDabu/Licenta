@@ -9,3 +9,4 @@ C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotn
 C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\alexa\OneDrive\Desktop\Licenta\StudentAssets\CreateProjectsScripts\Dotnet8Scripts\Reactivities\Domain\obj\Debug\net8.0\Domain.sourcelink.json
