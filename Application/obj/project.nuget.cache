@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TPRXqj2DCP+bXh4ZlAV4BoUIKpFC+T9pXnyiuwX3V2Sz8BC8mKInzGkq/cp/Old8KM1A7HtxfNIzvgDSX5njuA==",
+  "dgSpecHash": "4ba3i2WVHsSnNYdkS1R58c/u1cWpwT0SGMNfKImYamf8YbUZFYf7gWWXnYpOPv2MNkpADKtFX8oJQYcrx6ELvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Desktop\\Licenta\\StudentAssets\\CreateProjectsScripts\\Dotnet8Scripts\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.1\\microsoft.data.sqlite.core.8.0.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.1\\microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",
