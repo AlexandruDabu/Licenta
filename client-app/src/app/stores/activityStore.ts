@@ -38,6 +38,7 @@ setLoadingInitial = (state: boolean) => {
 selectActivity = (id:string) => 
 {
     this.selectedActivity = this.activityRegistry.get(id);
+    this.closeForm();
 }
 cancelSelectedActivity = () => 
 {
