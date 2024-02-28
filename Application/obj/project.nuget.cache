@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5XyhKGooPmUWJgLxw6uJ+JWBMkk7b/vaG6pRqnkPlwNgVeZ9J9CHoLlSWB/FudU4dfyCBaPJUzBIKseK+l29Bg==",
+  "dgSpecHash": "1RNPNnEBE2co8wGK9ewWSIZAtwD4aaVhXpD2aKIYLEHtuJyxmsrcw3FjG0z2K7Lv5vrCXB1VUPX/xZ30KI8ZNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Desktop\\Licenta\\StudentAssets\\CreateProjectsScripts\\Dotnet8Scripts\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
