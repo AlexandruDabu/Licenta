@@ -17,6 +17,13 @@ body{
 
 /* end calendar style */
 
+ /* date picker style */
+.react-datepicker-wrapper
+{
+  width: 100%;
+}
+ /* end date picker style */
+
 /*home page styles*/
 
 .masthead {
