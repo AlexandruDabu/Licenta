@@ -26,6 +26,22 @@ export default class UserStore {
             throw error;
         }
     }
+    
+    logout = () => {
+        store.commonStore.setToken(null);
+        localStorage.removeItem('jwt');
+        this.user = null;
+        router.navigate('/');
+    }
+    
+    getUser = async () => {
+        try {
+            const user = await agent.Account.current();
+            runInAction(()=> this.user = user)
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
     register = async(creds: UserFormValues) => {
         try {
@@ -38,20 +54,10 @@ export default class UserStore {
             throw error;
         }
     }
-
-    logout = () => {
-        store.commonStore.setToken(null);
-        localStorage.removeItem('jwt');
-        this.user = null;
-        router.navigate('/');
-    }
-
-    getUser = async () => {
-        try {
-            const user = await agent.Account.current();
-            runInAction(()=> this.user = user)
-        } catch (error) {
-            console.log(error)
+    
+    setImage = (image: string) => {
+        if(this.user){
+            this.user.image = image;
         }
-    }
+    } 
 }
