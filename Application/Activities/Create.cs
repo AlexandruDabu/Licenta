@@ -18,6 +18,7 @@ namespace Application.Activities
         {
             
             public Activity Activity { get; set; }
+            public Guid ActivityId { get; set; }
         }
 
         public class CommandValidator : AbstractValidator<Command>
