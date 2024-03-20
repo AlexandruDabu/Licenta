@@ -5,7 +5,10 @@ export interface Profile{
     displayName : string;
     image?: string;
     bio?: string;
-    photos?: Photo[]
+    followersCount: number;
+    followingCount: number;
+    following: boolean;
+    photos?: Photo[];
 
 }
 

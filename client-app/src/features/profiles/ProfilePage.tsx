@@ -6,15 +6,19 @@ import { useParams } from "react-router-dom";
 import { useStore } from "../../app/stores/store";
 import { useEffect } from "react";
 import LoadingComponent from "../../app/layout/LoadingComponent";
+import React from "react";
 
 export default observer(function ProfilePage()
 {   const {username} = useParams<{username:string}>();
     const {profileStore} =  useStore();
-    const{loadingProfile,loadProfile,profile} = profileStore;
+    const{loadingProfile,loadProfile,setActiveTab,profile} = profileStore;
     
     useEffect(()=>{
         if(username){
         loadProfile(username);
+        }
+        return () =>{
+            setActiveTab(0);
         }
     }, [loadProfile, username])
 
