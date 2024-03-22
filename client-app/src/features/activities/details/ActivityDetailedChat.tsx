@@ -1,12 +1,10 @@
 import { observer } from 'mobx-react-lite'
 import React, { useEffect } from 'react'
-import {Segment, Header, Comment, Button, Loader} from 'semantic-ui-react'
+import {Segment, Header, Comment, Loader} from 'semantic-ui-react'
 import { useStore } from '../../../app/stores/store';
 import { Link } from 'react-router-dom';
 import { Formik,Form, Field, FieldProps } from 'formik';
-import MyTextArea from '../../../app/common/form/MyTextArea';
 import * as Yup from 'yup'
-import { formatDistanceToNow, isValid } from 'date-fns';
 
 interface Props{
     activityId: string;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RzFgo+vKrBYM0/gi65jbyl81wNryc5DB352qTs5tySSShK0n2i04cyVRy/SRb9qtfzCqexFo+i2FmewRTTHvbg==",
+  "dgSpecHash": "3oypzztC+55h7O1cEGg/KWKU03/8ICpKMjANjTHMoRSUtN8KY8ElTVVZ60O/8YwnCdqDFrOzXYemy5CrXauKjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexa\\OneDrive\\Desktop\\Licenta\\StudentAssets\\CreateProjectsScripts\\Dotnet8Scripts\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

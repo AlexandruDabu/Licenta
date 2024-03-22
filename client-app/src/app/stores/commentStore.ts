@@ -15,7 +15,7 @@ export default class CommentStore {
         if(store.activityStore.selectedActivity)
         {
             this.hubConnection = new HubConnectionBuilder()
-            .withUrl('http://localhost:5000/chat?activityId=' + activityId, {
+            .withUrl(import.meta.env.VITE_CHAT_URL + '?activityId=' + activityId, {
                 accessTokenFactory: () => store.userStore.user?.token!
             })
             .withAutomaticReconnect()
@@ -26,12 +26,14 @@ export default class CommentStore {
 
             this.hubConnection.on("LoadComments", (comments: ChatComment[]) => {
                 runInAction(() => {
-                    this.comments = comments
+                    this.comments = comments;
                 });
             })
             
             this.hubConnection.on("ReceiveComment",(comment: ChatComment) => {
-                runInAction(() => this.comments.push(comment));
+                runInAction(() =>{
+                    this.comments.unshift(comment)
+                });
             })
         }
     }

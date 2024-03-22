@@ -5,6 +5,7 @@ import { useStore } from "../../app/stores/store";
 import { observer } from "mobx-react-lite";
 import * as Yup from 'yup';
 import ValidationError from "../errors/ValidationError";
+import React from "react";
 export default observer(function RegisterForm() {
     const {userStore} = useStore();
     return (
