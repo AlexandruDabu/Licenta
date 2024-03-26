@@ -245,6 +245,11 @@ deleteActivity = async (id: string) => {
             runInAction(() => this.loading = false);
         }
     }
+
+    clearSelectedActivity = () => {
+        this.selectedActivity = undefined;
+    }
+
     updateAttendeeFollowing = (username: string) => {
         this.activityRegistry.forEach(activity => {
             activity.attendees.forEach(attendee => {

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Application.Activities;
+using Application.Comments;
 using MediatR;
 using Microsoft.AspNetCore.SignalR;
 
@@ -21,7 +21,7 @@ namespace API.SignalR
             var comment = await _mediator.Send(command);
 
             await Clients.Group(command.ActivityId.ToString())
-                .SendAsync("RecieveComment", comment.Value);
+                .SendAsync("ReceiveComment", comment.Value);
 
         }
 
