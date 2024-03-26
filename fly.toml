@@ -9,6 +9,11 @@ primary_region = 'otp'
 [build]
   image = 'alexandrudabuleanu/reactivities:latest'
 
+[env]
+  ASPNETCORE_URLS="http://+:8080"
+  Cloudinary__CloudName="dzcbnpola"
+  Cloudinary__ApiKey="185943577893818"
+
 [http_service]
   internal_port = 8080
   force_https = true
