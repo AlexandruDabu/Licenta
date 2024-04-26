@@ -21,7 +21,7 @@ export default observer(function ProfileCard({profile} : Props){
             <Image src={profile.image || '/assets/user.png'}/>
             <Card.Content>
                 <Card.Header>{profile.displayName}</Card.Header>
-                <Card.Description>{truncate(profile.bio)}</Card.Description>
+                <Card.Description>{profile.bio ? truncate(profile.bio) : `There is nothing listed about ${profile.displayName}`}</Card.Description>
             </Card.Content>
             <Card.Content extra>
                 <Icon name='user'/>

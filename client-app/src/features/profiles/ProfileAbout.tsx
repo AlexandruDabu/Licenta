@@ -23,7 +23,7 @@ export default observer(function ProfileAbout() {
                         </Grid.Column>
                             <Grid.Column width='16'>
                             {editMode ? <ProfileEditForm setEditMode={setEditMode} /> :
-                            <span style={{whiteSpace: 'pre-wrap'}}>{profile?.bio}</span>}
+                            profile?.bio ? <span style={{whiteSpace: 'pre-wrap'}}>{profile?.bio}</span> : <span style={{whiteSpace: 'pre-wrap', color:'grey'}}>{`There is nothing listed about ${profile?.displayName}`}</span>}
                         </Grid.Column>
                     </Grid>
                 </Tab.Pane>
