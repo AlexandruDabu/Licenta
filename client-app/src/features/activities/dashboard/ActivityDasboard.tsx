@@ -22,7 +22,9 @@ export default observer(function ActivityDashboard(){
     }
 
     useEffect(()=>{
-    if(activityRegistry.size <= 1 ) loadActivities();
+    if(activityRegistry.size <= 1 ) {
+        loadActivities();
+    };
   }, [loadActivities, activityRegistry.size])
 
   return(
@@ -39,6 +41,7 @@ export default observer(function ActivityDashboard(){
                     loadMore={handleGetNext}
                     hasMore={!loadingNext && !! pagination && pagination.currentPage < pagination?.totalPages}
                     initialLoad={false}>
+                    Total {activityStore.totalCount}
                         <ActivityList/>
                     </InfiniteScroll>
                 )}

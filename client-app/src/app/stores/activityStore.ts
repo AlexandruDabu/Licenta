@@ -14,7 +14,7 @@ loadingInitial = false;
 pagination : Pagination | null = null;
 pagingParams = new PagingParams();
 predicate = new Map().set('all',true);
-
+totalCount = 0;
 constructor(){
     makeAutoObservable(this);
 
@@ -97,6 +97,7 @@ loadActivities = async () =>{
                 this.setActivity(activity)
               })
               this.setPagination(result.pagination);
+              this.totalCount = result.pagination.totalItems;
               this.setLoadingInitial(false);
     } catch (error) {
         console.log(error);

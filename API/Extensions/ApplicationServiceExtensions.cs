@@ -54,8 +54,6 @@ namespace API.Extensions
         connStr = $"Server={updatedHost};Port={pgPort};User Id={pgUser};Password={pgPass};Database={pgDb};";
     }
 
-    // Whether the connection string came from the local development configuration file
-    // or from the environment variable from FlyIO, use it to set up your DbContext.
     options.UseNpgsql(connStr);
 });
 
